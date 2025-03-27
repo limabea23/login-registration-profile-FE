@@ -10,7 +10,7 @@ export default function Signin() {
             <p>Enter your details below.</p>
                     <input type="email" placeholder="💌 email" />
                     <input type="password" placeholder="🔒 password" />
-                    <button className={styles.button}>SIGN IN</button>
+                    <button className={styles.button}><a href="/profile">SIGN IN</a></button>
                     <p className={styles.link}>New here? No worries, <a href="/signup"> sign up</a> and let’s get you started!</p>
             </div>
         </div>
